@@ -1,9 +1,10 @@
 on: [push]
+name: Code Analysis
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Check Tests
+    name: check Tests
     steps:
     - uses: actions/checkout@v2
       with:
